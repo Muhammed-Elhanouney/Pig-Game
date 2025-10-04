@@ -21,6 +21,9 @@ btnRoll.addEventListener('click', function () {
     currentScore = currentScore + randomNum;
     currentPlayerOne.textContent = currentScore;
   }else{
+
+
+
     
   }
 });
