@@ -14,8 +14,13 @@ btnRoll.addEventListener('click', function () {
   // console.log(randomNum);
   imgDice.src = `dice-${randomNum}.png`;
   imgDice.classList.remove('hidden');
-  currentScore = currentScore + randomNum;
   //   currentScore = randomNum;
-  currentPlayerOne.textContent = currentScore;
-  console.log(currentScore);
+  //   console.log(currentScore);
+
+  if (randomNum !== 1) {
+    currentScore = currentScore + randomNum;
+    currentPlayerOne.textContent = currentScore;
+  }else{
+    
+  }
 });
