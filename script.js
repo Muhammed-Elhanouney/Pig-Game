@@ -22,8 +22,5 @@ btnRoll.addEventListener('click', function () {
     currentPlayerOne.textContent = currentScore;
   }else{
 
-
-
-    
   }
 });
